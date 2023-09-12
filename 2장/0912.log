@@ -1,0 +1,54 @@
+let result
+undefined
+result = 10
+10
+result = 20
+20
+const number = 10
+undefined
+number
+10
+number = 20
+VM1082:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(익명) @ VM1082:1
+let age = 23
+undefined
+con
+VM1196:1 Uncaught ReferenceError: con is not defined
+    at <anonymous>:1:1
+(익명) @ VM1196:1
+console.log(name+"닝의 나이는"+age)
+VM1325:1 이용상닝의 나이는23
+undefined
+console.lo
+undefined
+console.log(`${name}님의 나이는 ${age}입니다.`)
+VM1426:1 이용상님의 나이는 23입니다.
+undefined
+let student = {
+    major : 컴퓨터 공학부,
+VM1545:2 Uncaught SyntaxError: Unexpected identifier '공학부'
+let student = {
+    major : "컴퓨터 공학부",
+    idNum : 202095072,
+    name : "이용상"
+}
+undefined
+student
+{major: '컴퓨터 공학부', idNum: 202095072, name: '이용상'}
+student.name
+'이용상'
+student["major"]
+'컴퓨터 공학부'
+let id = Symbol()
+undefined
+const member = {
+    name : "이용상",
+    [id] : 12345
+}
+undefined
+member
+{name: '이용상', Symbol(): 12345}
+member[id]
+12345
